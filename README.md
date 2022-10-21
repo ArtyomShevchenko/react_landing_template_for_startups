@@ -1,24 +1,31 @@
 # Deploy React-project to github
 
 >git init
-... and all steps
+
+...and all steps
 
 >npm install gh-pages --save-dev
 
 /package.json
-    "homepage": "https://nameAcoount.github.io/nameProject",
-    "scripts" : {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-    }
+
+	"homepage": "https://nameAcoount.github.io/nameProject",
+
+	"scripts" : {
+
+		"predeploy": "npm run build",
+
+		"deploy": "gh-pages -d build",
+	}
 
 >git add .
+
 >git commit -m "deploy to github"
+
 >git push
 
+>npm run deploy
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Published !
 
 # Getting Started with Create React App
 
